@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ar">
+            <head>
+                <meta charset="UTF-8">
+                <title>Profile</title>
+                <link rel="stylesheet" href="./nav-main-info.css">
+                <link rel="shortcut icon" href="css/images/logo.png">
+                <link rel="stylesheet" href="css/style.css">
+	            <link rel="stylesheet" href="css/Vendors/font-awesome.min.css">
+            </head>
+    <body>
+       <div class="logo">
+			<a></a>
+		</div>
+       <!-- Side-Bar -->
+		<div class="side-bar">
+			<a href="HomePageE"><i class="fa fa-home"></i></a>
+			<a href="ProfileE"><i class="fa fa-user-circle"></i></a>
+			<a href="Orders.html"><i class="fa fa-shopping-basket"></i></a>
+			
+		</div>
+        
+          <div class="profile">
+              <h1>الملف الشخصي</h1>
+          </div>
+        <div class="content">
+            <div class="divv">
+                <input type="text" value = {{username}} class="innput" disabled> الاسم     
+            </div>
+
+            <div class="divv">                
+                <input type="text" value = {{ssn}} class="innput" disabled> رقم البطاقه   
+            </div>
+           
+            <div class="divv">
+                <input type="text" value = {{shopname}} class="innput" disabled>  اسم المحل     
+            </div>
+           
+            <div class="divv">
+                <input type="text" value = {{address}} class="innput" disabled> العنوان
+            </div>
+            <a href="/logout" class="P-btn">تسجيل الخروج</a>
+
+        </div>
+    </body>
+</html>

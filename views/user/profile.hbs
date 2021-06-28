@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ar">
+            <head>
+                <meta charset="UTF-8">
+                <title>Tamweenk</title>
+                <link rel="stylesheet" href="css/nav-main-info.css">
+                <link rel="shortcut icon" href="css/images/logo.png">
+
+            </head>
+            {{# if status}}
+
+    <body>
+        <div  class="super-nav">
+            <ul>
+                <li>
+                  <a href="#" class="sub-nav"> تواصل</a>
+                  
+      
+                </li>
+                <li>
+                  <a href="#" class="sub-nav" > تسجيل الدخول</a>
+                </li>
+                <li>
+                  <a href="#" class="sub-nav" > الرئيسية</a>
+                </li>
+            </ul>
+              
+          </div>
+        <div class="content">
+            <div class="divv">
+                <input type="text" value  = {{name}}  class="innput" disabled> الاسم     
+            </div>
+
+            <div class="divv">                
+                <input type="text" value = {{cno}} class="innput" disabled> رقم البطاقه   
+            </div>
+           
+            <div class="divv">
+                <input type="text" value = {{balance}} class="innput" disabled> الرصيدالمتاح   
+            </div>
+            
+            <div class="divv">
+                <input type="text" value = {{personno}} class="innput" disabled> عدد الافراد  
+            </div class="divv">
+           
+            <div class="divv">
+                <input type="text" value = {{address}} class="innput" disabled> العنوان
+            </div>
+        </div>
+    </body>{{else}}
+You have no access For This Page
+{{/ if}}
+</html>

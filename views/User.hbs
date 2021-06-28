@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <link rel="stylesheet" href="/Rout.css">
+  </head>
+<body >
+	
+<section class="main">
+<h3 >تسجيل الدخول للمستهلك</h3>
+	<center>
+	<div class="container">
+		<form style="padding-top: 30px" action="/auth/User" method="POST">
+    		<label for="cno">  رقم بطاقة الاسرة</label>
+			<br>
+    		<input type="text" id="cno" name="cno" placeholder="رقم بطاقة الاسرة" style="width:400px">
+			<br>
+    		<label for="code">الرقم السري </label>
+			<br>
+    		<input type="password" id="code" name="code" placeholder="الرقم السري لبطاقة الاسرة" style="width: 400px">
+			<br>
+           <input type="submit" value="تسجيل الدخول">
+		</form> 
+			{{#if message}}
+					<h3 class="alert alert-danger mt-4" style="color: brown;">{{message}}</h3>
+				{{/if}} 
+	</div>
+</center>
+</section>
+</body>
+
+<!-- Mirrored from www.w3schools.com/css/tryit.asp?filename=trycss_forms by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 27 Jan 2020 02:35:39 GMT -->
+</html>

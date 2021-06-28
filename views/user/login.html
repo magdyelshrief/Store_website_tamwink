@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ar">
+	<head>
+		<link rel="stylesheet" href="Rout.css">
+	</head>
+<body>
+
+<h3 >تسجيل كمشرف </h3>
+	<center>
+		<div class="container">
+  			<form action="/user/login/submit" method="post">
+    		<label for="Email">اسم المستخدم</label>
+    		<input type="text" id="username" name="username" placeholder="Your username.." >
+				<br>
+    		<label for="password">Password</label>
+    		<input type="Password" id="password" name="password" placeholder="Your password..">
+				<br>
+   		    <input type="submit" value="LogIn">
+ 		    </form>
+				{{#if message}}
+					<h4 class="alert alert-danger mt-4">{{message}}</h4>
+				{{/if}}
+		</div>
+		    <script src="C:\Users\admin\Downloads\jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="C:\Users\admin\Downloads\bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+
+	</center>
+</body>
+
+<!-- Mirrored from www.w3schools.com/css/tryit.asp?filename=trycss_forms by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 27 Jan 2020 02:35:39 GMT -->
+</html>

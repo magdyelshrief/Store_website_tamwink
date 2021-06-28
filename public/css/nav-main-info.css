@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Myriad Pro", "Gill Sans MT", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    box-sizing: border-box;
+    
+}
+body{
+    width: 100%;
+    height: 80vh;
+    background-image: url("images/drew-beamer-kUHfMW8awpE-unsplash.jpg");
+    background-size: cover;
+}
+ /*set default behavior href*/
+ a {
+     color: black;
+     
+ }
+ 
+.super-nav{
+    width: 100%;
+    height: 50px;
+    border:2px solid black ;
+    border-radius:25px ;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+
+}
+
+
+
+.text{
+    text-align: center;
+    }
+
+.poss{
+    margin-top:11%;
+     }
+
+.detals{
+   text-align:center;
+   margin: 30px;
+   border: 2px solid rgb(172, 157, 157);
+   border-radius:25px ;
+   width: 150px;
+   margin-left: auto;
+   margin-right: auto;
+   position: relative;
+  
+}
+
+.detals a {
+    text-decoration: none;
+}
+
+.detals:hover {
+    
+    background-color: rgb(218, 234, 236);
+}
+
+.text-product{
+    text-align: center;
+}
+
+.img-size{
+    width: 250px;
+    height:250px;
+}
+
+.picture{
+   
+display: block; 
+margin-top: 50px;
+margin-left: 9%;      
+}
+
+.super-nav ul li{
+    display: inline-block;
+    font-size: 25px;
+    position: relative;
+
+    padding: 5px;
+    width: 33%;
+   
+   
+   
+}
+
+.super-nav ul li a {
+    text-decoration: none;
+    text-align: center;
+    margin-left: 40%;
+}
+
+.super-nav ul li a:hover {
+    color: gray;
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    width: 90%;
+    
+}
+
+/* my task 2&3*/
+.content{
+    margin-top: 150px;
+   margin-left: 65%;
+}
+.divv{
+    margin: 30px;
+    font-size: 25px;
+    font-weight:normal;
+}
+.innput{
+    border: 2px solid black;
+    border-radius: 25px;
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+}
